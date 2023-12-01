@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #7d0297;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(100, 44, 343);
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        .logo {
+            height: 50px;
+            width: 50px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        
+        .profile {
+            height: 50px;
+            width: 50px;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            margin-right: 15px;
+        }
+        
+        .bodypart1 {
+            background-color: aqua;
+        }
+        
+        section b {
+            font-size: 35px;
+        }
+        
+        .bodypart2 {
+            background-color: rgb(22, 177, 22);
+        }
+        
+        .pro1 {
+            height: 300px;
+            width: 450px;
+            margin-left: 25px;
+        }
+        
+        .pro2 {
+            height: 400px;
+            width: 500px;
+            margin-right: 25px;
+        }
+        
+        .pro3 {
+            height: 400px;
+            width: 400px;
+            margin-left: 25px;
+        }
+        
+        .pro4 {
+            height: 500px;
+            margin-right: 25px;
+        }
+        
+        .pro5 {
+            height: 400px;
+            width: 500px;
+            margin-left: 25px;
+        }
+        
+        .foot {
+            background-color: blue;
+        }
+        
+        .loginimg {
+            height: 20px;
+            width: 50px;
+        }
+        
+        .regimg {
+            height: 20px;
+            width: 50px;
+        }
+    </style>
+    <script>
+        function shop() {
+            alert("Shopping facility will be available soon");
+        }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <img align="left" class="logo" src="Digi Logo.png">
+        <img align="right" class="profile" src="avatar.jpg">
+        <h1>Digi Accessories</h1>
+    </header>
+
+    <nav>
+        <div align="left">
+            <a href="Login.html"> <img class="loginimg" src="LOGIN BUTTON.png"></a>
+        </div>
+        <a href="Digi Accessories.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Services.html">Services</a>
+        <a href="Feedback.html">Feedback</a>
+        <div align="right">
+            <a href="Register.html"> <img class="regimg" src="REGISTER BUTTON.png"></a>
+        </div>
+    </nav>
+    <br> <br> <br>
+    <section class="bodypart1">
+        <div align="center"> <b>Welcome to Digi Accessories.</b></div>
+    </section>
+    <br>
+    <section class="bodypart2">
+        <div align="center">
+            <i> You can buy or sell your digital products here. </i>
+        </div>
+    </section>
+    <br><br><br>
+    <nav class="reference">
+        <div>
+            <a href="#laptop">Laptop</a>
+            <a href="#keyboard">Keyboard</a>
+            <a href="#mouse">Mouse</a>
+            <a href="#charger">Charger</a>
+            <a href="#mobile">Mobile</a>
+        </div>
+    </nav> <br> <br> <br>
+    <section id="laptop">
+        <div class="product1">
+            <img align="left" class="pro1" src="laptop image.jpg">
+            <br><br><br>
+            <p class="laptop" align="center"><b><u>LAPTOP</u></b><br>
+            </p>
+            <div align="center">
+                <li>16 GB RAM</li><br>
+                <li>1 TB ROM</li><br>
+                <li>More details will be updated soon</li>
+            </div>
+            <div align="center">
+                <br>
+                <input type="button" value="Shop now" onclick="shop()"> </div>
+        </div><br><br><br><br><br><br><br><br><br><br>
+        <hr> </section>
+    <section id="keyboard">
+        <div class="product2">
+            <img align="right" class="pro2" src="keyboard image.jpg">
+            <br><br><br><br><br>
+            <p class="keyboard" align="center"><b><u>KEYBOARD</u></b><br>
+            </p>
+            <div align="center">
+                <li>RGB Feature</li><br>
+                <li>Metal Body</li><br>
+                <li>More details will be updated soon</li>
+            </div>
+            <div align="center">
+                <br>
+                <input type="button" value="Shop now" onclick="shop()"> </div>
+        </div><br><br><br><br><br><br><br><br><br><br>
+        <hr>
+    </section>
+    <section id="mouse">
+        <div class="product3">
+            <img align="left" class="pro3" src="mouse image.jpg">
+            <br><br><br><br><br>
+            <p class="mouse" align="center"><b><u>MOUSE</u></b><br>
+            </p>
+            <div align="center">
+                <li>RGB Feature</li><br>
+                <li>Hard Plastic Body</li><br>
+                <li>More details will be updated soon</li>
+            </div>
+            <div align="center">
+                <br>
+                <input type="button" value="Shop now" onclick="shop()"> </div>
+        </div><br><br><br><br><br><br><br><br><br><br>
+        <hr>
+    </section>
+    <section id="mobile">
+        <div class="product4">
+            <img align="right" class="pro4" src="mobile image.jpg">
+            <br><br><br><br><br>
+            <p class="mobile" align="center"><b><u>MOBILE PHONE</u></b><br>
+            </p>
+            <div align="center">
+                <li>8 GB RAM</li><br>
+                <li>128 GB STORAGE</li><br>
+                <li>108 MP Rear Camera</li><br>
+                <li>50 MP Front Camera</li>
+                <li>More details will be updated soon</li>
+            </div>
+            <div align="center">
+                <br>
+                <input type="button" value="Shop now" onclick="shop()"> </div>
+        </div><br><br><br><br><br><br><br><br><br><br>
+        <hr>
+    </section>
+    <section id="charger">
+        <div class="product5">
+            <br><br><br>
+            <img align="left" class="pro5" src="mobile charger image.jpg">
+            <br><br><br><br><br>
+            <p class="mobilecharger" align="center"><b><u>MOBILE CHARGER</u></b><br>
+            </p>
+            <div align="center">
+                <li>C - Type</li><br>
+                <li>Verified</li><br>
+                <li>More details will be updated soon</li>
+            </div>
+            <div align="center">
+                <br>
+                <input type="button" value="Shop now" onclick="shop()"> </div>
+        </div><br><br><br><br><br><br><br><br><br><br>
+
+    </section>
+
+
+    <div class="foot">
+        <hr>
+        <br><br><br>
+
+        <p align="center"><b>All Rights Reserved by Omm Prakash Sahu@2023</b> <br><br>If any Problem is faced mail us at :
+            <br>
+
+            <u>opsommprakash@gmail.com
+                </u>
+            <br><br><br><br>
+        </p>
+    </div>
+    <hr>
+</body>
+
+</html>
